@@ -4,7 +4,7 @@ import Facebook from '../../assets/facebook.png'
 import Instagram from '../../assets/instagram.png'
 import Github from '../../assets/github.png'
 import Spark from '../../assets/spark.png'
-import CV from '../../assets/CV.pdf'
+import Resume from '../../assets/Pattaranun_Resume.pdf'
 
 
 function Home() {
@@ -23,13 +23,13 @@ function Home() {
                         <h1 className="text-2xl md:text-3xl text-pp-4 text-center">Computer Engineering</h1>
                     </div>
                     <div className="flex justify-between items-center">
-                        <a href={CV} download="Pattaranun_CV" className="text-xl md:text-2xl text-pink underline hover:text-rose-200 transition transform duration-300 active:text-rose-400">Download Resume</a>
+                        <a href={ Resume } download="Pattaranun_Resume" className="text-xl md:text-2xl text-pink underline hover:text-rose-200 transition transform duration-300 active:text-rose-400">Download Resume</a>
                         <div className="flex gap-3">
                             <button onClick={() => window.open('https://www.facebook.com/ffinch.ptay','__blank')}><img className='size-7 md:size-10 rounded-full hover:scale-110 transition transform duration-300 hover:shadow-md hover:shadow-pp-4/10 active:opacity-40' src={Facebook}/></button>
                             <button onClick={() => window.open('https://www.instagram.com/4xnch/','__blank')}><img className='size-7 md:size-10 rounded-full hover:scale-110 transition transform duration-300 hover:shadow-md hover:shadow-pp-4/10 active:opacity-40' src={Instagram}/></button>
                             <button onClick={() => window.open('https://github.com/efmuruk','__blank')}><img className='size-7 md:size-10 rounded-full hover:scale-110 transition transform duration-300 hover:shadow-md hover:shadow-pp-4/10 active:opacity-40 bg-white' src={Github}/></button>
                         </div>
-                    </div>
+                     </div>
                 </div>
             </div>
         // </>

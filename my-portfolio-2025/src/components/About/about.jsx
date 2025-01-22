@@ -1,5 +1,5 @@
 import React from "react";
-import Profilepic1 from '../../assets/profilepic1.jpeg'
+import Profilepic from '../../assets/profilepic.jpeg'
 
 function About () {
     return (
@@ -9,7 +9,7 @@ function About () {
                     <div className="flex flex-col md:flex-row justify-center gap-6 md:gap-0">
                         <div className="w-10/12 mx-auto md:w-4/12 flex flex-col items-center text-2xl gap-7">
                         <h1 className="text-4xl text-left font-semibold">About me</h1>
-                            <img src={ Profilepic1 } className="size-48 md:size-64 rounded-full object-cover"/>
+                            <img src={ Profilepic } className="size-48 md:size-64 rounded-full object-cover"/>
                             <div className="flex flex-col md:gap-4 text-pp-4 text-lg md:text-2xl">
                                 <h1>Name: Pattaranun Ayaprasitphol</h1>
                                 <h1>Email: finchptay@gmail.com</h1>
