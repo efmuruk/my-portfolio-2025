@@ -7,7 +7,7 @@ function Navbar() {
     const activeStyle = 'text-white border-b-2 border-pp-3'
     const [activeSection, setActiveSection] = useState('home-section');
     const sectionIds = ['home-section', 'about-section', 'education-section', 'skill-section',
-         'project-section','contact-section'];
+         'project-section'];
     const handleScroll = (sectionId) => {
         const element = document.getElementById(sectionId);
         element?.scrollIntoView({
@@ -63,9 +63,6 @@ function Navbar() {
                     </li>
                     <li className={activeSection === sectionIds[4] ? activeStyle : normalStyle}>
                         <button onClick={() => handleScroll(sectionIds[4])}> Projects</button>
-                    </li>
-                    <li className={activeSection === sectionIds[5] ? activeStyle : normalStyle}>
-                        <button onClick={() => handleScroll(sectionIds[5]) }> Contact</button>
                     </li>
                 </ul>
                 <div onClick={toggleMenu} className="size-10 lg:hidden">
