@@ -1,5 +1,5 @@
 import React from "react";
-import Profilepic1 from '../../assets/profilepic1.jpeg' 
+import Profilepic from '../../assets/profilepic.jpeg' 
 import Facebook from '../../assets/facebook.png'
 import Instagram from '../../assets/instagram.png'
 import Github from '../../assets/github.png'
@@ -13,7 +13,7 @@ function Home() {
             <div id="home-section" className="w-full h-screen bg-dark-grey to-pp-2/20 flex flex-col md:flex-row text-white justify-center font-montserrat">
                 <div className="w-9/12 md:w-4/12 mx-auto content-center">
                     <div className="size-14 md:size-20 rounded-full object-cover relative top-10 mx-auto right-24 md:right-40 bg-pp-3 shadow-md shadow-pp-4/20"></div>
-                    <img src={ Profilepic1 } className="size-56 md:size-80 z-3 rounded-full object-cover mx-auto shadow-lg shadow-pp-4/20 "/>
+                    <img src={ Profilepic } className="size-56 md:size-80 z-3 rounded-full object-cover mx-auto shadow-lg shadow-pp-4/20 "/>
                     <img src={ Spark } className="size-14 md:size-20 rounded-full object-cover relative -top-10 mx-auto left-24 md:left-40"/>
                 </div>
                 <div className="w-10/12 md:w-5/12 mx-auto flex flex-col justify-center gap-5 md:gap-10">
